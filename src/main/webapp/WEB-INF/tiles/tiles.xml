@@ -6,11 +6,14 @@
 	<!-- Templates -->
 	<definition name="baseLayout" template="/WEB-INF/jsp/layout/base-layout.jsp">
 		<put-attribute name="header" value="/WEB-INF/jsp/layout/header.jsp" />
+		<put-attribute name="nav" value="/WEB-INF/jsp/layout/nav.jsp" />
+		<put-attribute name="left" value="/WEB-INF/jsp/layout/left.jsp" />
 		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/layout/footer.jsp" />
 	</definition>
 
-	<definition name="*" extends="baseLayout">
-		<put-attribute name="body" value="/WEB-INF/jsp/view/{1}.jsp" />
+	<definition name="*/*" extends="baseLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/view/{1}/{2}.jsp" />
 	</definition>
 
 </tiles-definitions>

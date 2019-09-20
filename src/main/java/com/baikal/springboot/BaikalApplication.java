@@ -1,12 +1,12 @@
-package com.barryku.springboot;
+package com.baikal.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootTilesApplication {
+public class BaikalApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootTilesApplication.class, args);
+        SpringApplication.run(BaikalApplication.class, args);
     }
 }

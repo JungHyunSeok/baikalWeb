@@ -1,4 +1,4 @@
-package com.barryku.springboot;
+package com.baikal.springboot;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,9 +7,9 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = SpringBootTilesApplication.class)
+@SpringApplicationConfiguration(classes = BaikalApplication.class)
 @WebAppConfiguration
-public class SpringBootTilesApplicationTests {
+public class BaikalApplicationTests {
 
 	@Test
 	public void contextLoads() {
